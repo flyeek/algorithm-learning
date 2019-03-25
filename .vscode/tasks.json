@@ -13,6 +13,18 @@
                 "./build/a.out",
                 "linked-list/linked_list.cpp",
                 "linked-list/test/test_linked_list.cpp"
+            ]
+        },
+        {
+            "label": "build sort",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "./build/a.out",
+                "sort/sort.cpp",
+                "sort/test/test_sort.cpp"
             ],
             "group": {
                 "kind": "build",
